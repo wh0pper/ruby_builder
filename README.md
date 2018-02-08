@@ -7,22 +7,22 @@ Ruby script to set up a new ruby project
 Takes user inputs to create named directories, files and preliminary content for a basic ruby application.
 
 ## Specifications
-* Method takes name of project, creates directories
+1. Method takes name of project, creates directories
   * Example Input: "hello_world"
   * Example Output: root directory "hello_world", "hello_world/lib" directory, "hello_world/spec" directory
-* Method creates necessary files.
+2. Method creates necessary files.
   * Example Input:
   * Example Output: hello_world_script.rb, Gemfile, README, lib/hello_world.rb, spec/hello_world_spec.rb
-* Method takes name desired classes, adds skeleton code to necessary files
+3. Method takes name desired classes, adds skeleton code to necessary files
   * Example Input: "hello"
   * Example Output: in lib/hello_world.rb, append "class Hello...end"
-* Method takes name desired classes, adds skeleton code to specs
+4. Method takes name desired classes, adds skeleton code to specs
   * Example Input: "hello"
   * Example Output: in spec append "describe ('Hello') do...end"
-* Method takes input to populate README
+5. Method takes input to populate README
   * Example Input: "Name and Date"
   * Example Output: appends README with license and author info
-  
+
 ## Setup/Installation Requirements
 
 
