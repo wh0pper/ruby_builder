@@ -1,25 +1,28 @@
-# Coin Combinations
-Ruby script find least possible coins for an amount of cents
+# Ruby Project Generator
+Ruby script to set up a new ruby project
 
 #### By Jared Clemmensen & Russell Hofvendahl
 
 ## Description
-Return minimal coin combination for any input cent amount
+Takes user inputs to create named directories, files and preliminary content for a basic ruby application.
 
 ## Specifications
-* Method takes a cent amount, returns amount in pennies & updates remainder
-  * Example Input: 92
-  * Example Output: 92 pennies
-* Method takes a cent amount, returns amount in nickels & updates remainder
-  * Example Input: 92
-  * Example Output: 18 nickels 2 pennies
-* Method takes a cent amount, returns amount in dimes & updates remainder
-  * Example Input: 92
-  * Example Output: 9 dimes 2 pennies
-* User inputs a cent amount, program returns amount in quarters, dimes, nickels, pennies
-  * Example Input: 92
-  * Example Output: 3 quarters 1 dime 1 nickel 2 pennies  
-
+* Method takes name of project, creates directories
+  * Example Input: "hello_world"
+  * Example Output: root directory "hello_world", "hello_world/lib" directory, "hello_world/spec" directory
+* Method creates necessary files.
+  * Example Input:
+  * Example Output: hello_world_script.rb, Gemfile, README, lib/hello_world.rb, spec/hello_world_spec.rb
+* Method takes name desired classes, adds skeleton code to necessary files
+  * Example Input: "hello"
+  * Example Output: in lib/hello_world.rb, append "class Hello...end"
+* Method takes name desired classes, adds skeleton code to specs
+  * Example Input: "hello"
+  * Example Output: in spec append "describe ('Hello') do...end"
+* Method takes input to populate README
+  * Example Input: "Name and Date"
+  * Example Output: appends README with license and author info
+  
 ## Setup/Installation Requirements
 
 
