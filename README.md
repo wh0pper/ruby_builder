@@ -23,6 +23,16 @@ Takes user inputs to create named directories, files and preliminary content for
   * Example Input: "Name and Date"
   * Example Output: appends README with license and author info
 
+* to be implemented
+  * gemfile content
+    * input gems
+  * more rb content
+  * README
+    * input
+  * install, run bundle (system)
+  * spec
+    * input content
+
 ## Setup/Installation Requirements
 
 
