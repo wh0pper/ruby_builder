@@ -28,9 +28,12 @@ class Builder
   end
 
   def content
-    
+    script_file = File.open("../#{@project_name}/#{@project_name}_script.rb", "w")
+    script_file.write("#!/usr/bin/env ruby\n")
+    script_file.close
     lib_file = File.open("../#{@project_name}/lib/#{@project_name}.rb", "w")
-    lib_file.puts('#!/usr/bin/env ruby')
+    lib_file.write("require 'pry'\n\nclass Builder\n  def initialize()\n\n  end\n\nend\n")
     lib_file.close
+
   end
 end
